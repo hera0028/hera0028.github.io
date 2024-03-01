@@ -1,3 +1,23 @@
-body{
-  color: aquamarine;
-  }
+body {
+  background-color: #aad4cf;
+  background-image: url(../images/lone-starfish-wide.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+h1 {
+  text-align:center;
+  font-size: 50px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  right: 0%;
+  color: white;
+}
+.container {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: -50%;
+    font-size: 20px;
+}
