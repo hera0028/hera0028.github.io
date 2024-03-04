@@ -15,9 +15,15 @@ h1 {
   right: 0%;
   color: white;
 }
-nav ul ol {
+nav ol {
   display: inline-block;
   width: 250px;
+  text-decoration: none;
+}
+img {
+  width: 340px;
+  float: left;
+  padding: 10px;
 }
 .container {
     position: absolute;
@@ -27,6 +33,13 @@ nav ul ol {
     right: -50%;
     font-size: 20px;
     width: 979px;
-    height: 2000px;
+    height: 1200px;
     padding: 20px;
+}
+form {
+  width: 966px;
+}
+form textarea{
+  width: 966px;
+  height: 113px;
 }
