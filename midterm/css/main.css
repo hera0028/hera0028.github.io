@@ -3,6 +3,7 @@ body {
   background-image: url(../images/lone-starfish-wide.jpg);
   background-repeat: no-repeat;
   background-position: top;
+  width: 200px;
 }
 h1 {
   text-align:center;
@@ -14,10 +15,18 @@ h1 {
   right: 0%;
   color: white;
 }
+nav ul ol {
+  display: inline-block;
+  width: 250px;
+}
 .container {
     position: absolute;
-    top: 25%;
+    background: #d4e9e7;
+    top: 26%;
     left: 30%;
     right: -50%;
     font-size: 20px;
+    width: 979px;
+    height: 2000px;
+    padding: 20px;
 }
