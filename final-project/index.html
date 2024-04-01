@@ -34,41 +34,52 @@
     <img src="images/main-banner.jpg" alt="main-banner">
     <h1>Welcome to Three Star Media</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto porro fugiat dolore ducimus ipsam a, officiis necessitatibus animi alias voluptate, harum saepe ad. Aut quidem, fuga recusandae optio ipsa et.</p>
-    <a href="contact.html" target="_blank">Connect with us</a>
+    <button onclick="document.location='contact.html'">Connect with us</button>  
 
     <article>
-        <img src="images/about-us.jpg" alt="About-us" width="400px" >
+        <img src="images/about-us.jpg" alt="About-us">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam mollitia veniam eius explicabo sit cum assumenda porro eum aspernatur aut earum placeat alias tempore similique molestias ratione doloremque, necessitatibus quibusdam!</p>
     </article>
     <div>
         <h2>Our Services</h2>
         <div>
-            <img src="images/digital.jpg" alt="Digital transformation">
+            
             <h3>Digital transformation</h3>
+            <img src="images/digital.jpg" alt="Digital transformation">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, inventore natus dignissimos nam perspiciatis ipsa aliquam totam reprehenderit alias atque aut accusantium doloribus illo dicta at odit itaque delectus quia.</p>
+            <button onclick="document.location='Blank'">Digital Plans</button>
 
-            <img src="images/marketing.jpg" alt="Marketing">
+            
             <h3>Marketing</h3>
+            <img src="images/marketing.jpg" alt="Marketing">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, error explicabo odio ad minima reiciendis quod repudiandae nesciunt illo! Vitae maxime beatae error ducimus aut, repudiandae labore! Excepturi, laborum dolor!</p>
+            <button onclick="document.location='Blank'">Marketing Plans</button>
 
-            <img src="images/video.jpg" alt="Video Production">
+            
             <h3>Video Production</h3>
+            <img src="images/video.jpg" alt="Video Production">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus repudiandae veniam, adipisci cumque, magnam iste eveniet et nam nobis sapiente esse ab nihil iusto nemo voluptatum nisi laborum dolorem tempora.</p>
+            <button onclick="document.location='Blank'">Video Plans</button>
 
-            <img src="images/web.jpg" alt="Web Development">
+            
             <h3>Web Development</h3>
+            <img src="images/web.jpg" alt="Web Development">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus libero non necessitatibus? Explicabo facilis illo consequuntur, magni fuga cupiditate, tenetur optio consectetur nesciunt id beatae perferendis temporibus minima quo!</p>
+            <button onclick="document.location='Blank'">Web Plans</button>
 
-            <img src="images/print.jpg" alt="Print">
+            
             <h3>Print</h3>
+            <img src="images/print.jpg" alt="Print">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at sit saepe ipsam ipsum nisi cupiditate repellat ullam et vel dolorum minus tempora necessitatibus eaque error, quo, dicta, quibusdam totam!</p>
+            <button onclick="document.location='Blank'">Print Plans</button>
         </div>
     </div>
     
     <h3>Our Vision</h3>
     <img src="images/vision.jpg" alt="Our Vision">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est expedita amet quaerat laborum necessitatibus itaque pariatur nam debitis ea accusamus neque consequuntur beatae, dolor minima perferendis ipsum dignissimos cum?</p>
+    <button onclick="document.location='aboutus.html'">Learn More</button>
 
     <div>
         <h2>Our Team</h2>
@@ -88,13 +99,13 @@
     <div>
         <h2>Contact Us</h2>
         <h3>send us a message</h3>
-        <form action="/action_page.php">
+        <form action="index.html" method="post">
             <label for="fname">Full name:</label><br>
             <input type="text" id="fname" name="fname" value=""><br>
             <label for="lname">Email:</label><br>
             <input type="text" id="lname" name="lname" value=""><br>
             <label for="message">Message</label><br>
-            <input id="message">
+            <textarea id="message"></textarea>
             <br>
             <br>
             <input type="submit" value="Submit">
@@ -109,18 +120,18 @@
                 <tr>
                     <th>Days</th>
                     <th>Hours</th>
-                  </tr>
-                  <tbody>
-                      <tr>
+                </tr>
+            </thead>
+                <tbody>
+                     <tr>
                         <td>Monday-Friday</td>
                         <td>9 AM-6 AM</td>
-                      </tr>
-                      <tr>
+                    </tr>
+                    <tr>
                         <td>Saturday-Sunday</td>
                         <td>Closed</td>
-                      </tr>
-                  </tbody>
-            </thead>
+                    </tr>
+                </tbody>
         </table>
     </div>
     <footer id="page-footer">
