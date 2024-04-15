@@ -7,138 +7,161 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
+    <div class="wrapper">
+        <header>
+
+            <div class="logo">
+                <img class="img.logo" src="images/logo.png" alt="logo">
+            </div>
+
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home Page</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <!-- Search icon will be added in css -->
+                </ul>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                    </form>
+                </div>
+            </nav>    
+        </header>
+        <div class="main-banner">
+            <div class="main-text">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto porro fugiat dolore ducimus ipsam a, officiis necessitatibus animi alias voluptate, harum saepe ad. Aut quidem, fuga recusandae optio ipsa et.</p>
+                <button class="first-button" onclick="document.location='contact.html'">Connect with us</button>
+            </div>
+        </div>
+
+        <article class="about-us">
+            <img src="images/about-us.jpg" alt="About-us">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam mollitia veniam eius explicabo sit cum assumenda porro eum aspernatur aut earum placeat alias tempore similique molestias ratione doloremque, necessitatibus quibusdam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, possimus hic iure, quia deserunt aliquam doloremque libero ad dicta dignissimos blanditiis ducimus accusamus nobis dolorem molestias, debitis velit facilis quod?</p>
+        </article>
+        <div class="services">
+            <h2>Our Services</h2>
+            <div>
+                
+                <div class="digi">
+                    <img src="images/digital.jpg" alt="Digital transformation">
+                    <h3>Digital transformation</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, inventore natus dignissimos nam perspiciatis ipsa aliquam totam reprehenderit alias atque aut accusantium doloribus illo dicta at odit itaque delectus quia.</p>
+                    <button class="sec-button" onclick="document.location='Blank'">Digital Plans</button>
+                </div>
+
+                <div class="marketing">
+                    <h3>Marketing</h3>
+                    <img src="images/marketing.jpg" alt="Marketing">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, error explicabo odio ad minima reiciendis quod repudiandae nesciunt illo! Vitae maxime beatae error ducimus aut, repudiandae labore! Excepturi, laborum dolor!</p>
+                    <button class="third-button" onclick="document.location='Blank'">Marketing Plans</button>
+                </div>
+
+                <div class="video">
+                    <h3>Video Production</h3>
+                    <img src="images/video.jpg" alt="Video Production">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus repudiandae veniam, adipisci cumque, magnam iste eveniet et nam nobis sapiente esse ab nihil iusto nemo voluptatum nisi laborum dolorem tempora.</p>
+                    <button class="fourth-button" onclick="document.location='Blank'">Video Plans</button>
+                </div>
+
+                <div class="web">
+                    <h3>Web Development</h3>
+                    <img src="images/web.jpg" alt="Web Development">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus libero non necessitatibus? Explicabo facilis illo consequuntur, magni fuga cupiditate, tenetur optio consectetur nesciunt id beatae perferendis temporibus minima quo!</p>
+                    <button class="fifth-button" onclick="document.location='Blank'">Web Plans</button>
+                </div>
+
+                <div class="print">
+                    <h3>Print</h3>
+                    <img src="images/print.jpg" alt="Print">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at sit saepe ipsam ipsum nisi cupiditate repellat ullam et vel dolorum minus tempora necessitatibus eaque error, quo, dicta, quibusdam totam!</p>
+                    <button class="sixth-button" onclick="document.location='Blank'">Print Plans</button>
+                </div>
+            </div>
+        </div>
         
-        <nav>
-            <ul>
-                <img src="images/logo.png" alt="logo">
-                <li>
-                    <a href="index.html">Home Page</a>
-                </li>
-                <li>
-                    <a href="aboutus.html">About Us</a>
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-                <li>
-                    <a href="team.html">Team</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <!-- Search icon will be added in css -->
-            </ul>
-            <input type="text" placeholder="Search..">
-        </nav>    
-    </header>
-    <img src="images/main-banner.jpg" alt="main-banner">
-    <h1>Welcome to Three Star Media</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto porro fugiat dolore ducimus ipsam a, officiis necessitatibus animi alias voluptate, harum saepe ad. Aut quidem, fuga recusandae optio ipsa et.</p>
-    <button onclick="document.location='contact.html'">Connect with us</button>  
-
-    <article>
-        <img src="images/about-us.jpg" alt="About-us">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam mollitia veniam eius explicabo sit cum assumenda porro eum aspernatur aut earum placeat alias tempore similique molestias ratione doloremque, necessitatibus quibusdam!</p>
-    </article>
-    <div>
-        <h2>Our Services</h2>
-        <div>
-            
-            <h3>Digital transformation</h3>
-            <img src="images/digital.jpg" alt="Digital transformation">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, inventore natus dignissimos nam perspiciatis ipsa aliquam totam reprehenderit alias atque aut accusantium doloribus illo dicta at odit itaque delectus quia.</p>
-            <button onclick="document.location='Blank'">Digital Plans</button>
-
-            
-            <h3>Marketing</h3>
-            <img src="images/marketing.jpg" alt="Marketing">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, error explicabo odio ad minima reiciendis quod repudiandae nesciunt illo! Vitae maxime beatae error ducimus aut, repudiandae labore! Excepturi, laborum dolor!</p>
-            <button onclick="document.location='Blank'">Marketing Plans</button>
-
-            
-            <h3>Video Production</h3>
-            <img src="images/video.jpg" alt="Video Production">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus repudiandae veniam, adipisci cumque, magnam iste eveniet et nam nobis sapiente esse ab nihil iusto nemo voluptatum nisi laborum dolorem tempora.</p>
-            <button onclick="document.location='Blank'">Video Plans</button>
-
-            
-            <h3>Web Development</h3>
-            <img src="images/web.jpg" alt="Web Development">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus libero non necessitatibus? Explicabo facilis illo consequuntur, magni fuga cupiditate, tenetur optio consectetur nesciunt id beatae perferendis temporibus minima quo!</p>
-            <button onclick="document.location='Blank'">Web Plans</button>
-
-            
-            <h3>Print</h3>
-            <img src="images/print.jpg" alt="Print">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at sit saepe ipsam ipsum nisi cupiditate repellat ullam et vel dolorum minus tempora necessitatibus eaque error, quo, dicta, quibusdam totam!</p>
-            <button onclick="document.location='Blank'">Print Plans</button>
+        <div class="our-vision">
+            <h3>Our Vision</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est expedita amet quaerat laborum necessitatibus itaque pariatur nam debitis ea accusamus neque consequuntur beatae, dolor minima perferendis ipsum dignissimos cum?</p>
+            <button class="seventh-button" onclick="document.location='aboutus.html'">Learn More</button>
         </div>
-    </div>
-    
-    <h3>Our Vision</h3>
-    <img src="images/vision.jpg" alt="Our Vision">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est expedita amet quaerat laborum necessitatibus itaque pariatur nam debitis ea accusamus neque consequuntur beatae, dolor minima perferendis ipsum dignissimos cum?</p>
-    <button onclick="document.location='aboutus.html'">Learn More</button>
 
-    <div>
-        <h2>Our Team</h2>
         <div>
-            <img src="images/john.jpg" alt="John Doe" >
-            <h3>John Doe</h3>
-            <h4>CEO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste illum nostrum consequatur culpa corrupti cum magni totam sint amet id eius, itaque incidunt eos odit obcaecati cupiditate! Qui, quia.</p>
+            <h2>Our Team</h2>
+            <div>
+                <img src="images/john.jpg" alt="John Doe" >
+                <h3>John Doe</h3>
+                <h4>CEO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste illum nostrum consequatur culpa corrupti cum magni totam sint amet id eius, itaque incidunt eos odit obcaecati cupiditate! Qui, quia.</p>
 
-            <img src="images/bob.jpg" alt="Bob Rite">
-            <h3>Bob Rite</h3>
-            <h4>CFO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non velit, exercitationem sunt facilis maxime perspiciatis odio sint quis aspernatur, labore placeat voluptatem. Quae in, aliquid adipisci repellat nesciunt cum. Nemo.</p>
+                <img src="images/bob.jpg" alt="Bob Rite">
+                <h3>Bob Rite</h3>
+                <h4>CFO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non velit, exercitationem sunt facilis maxime perspiciatis odio sint quis aspernatur, labore placeat voluptatem. Quae in, aliquid adipisci repellat nesciunt cum. Nemo.</p>
+            </div>
         </div>
-    </div>
 
-    <div>
-        <h2>Contact Us</h2>
-        <h3>send us a message</h3>
-        <form action="index.html" method="post">
-            <label for="fname">Full name:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Email:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
-            <label for="message">Message</label><br>
-            <textarea id="message"></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+        <div>
+            <h2>Contact Us</h2>
+            <h3>send us a message</h3>
+            <form action="index.html" method="post">
+                <label for="fname">Full name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Email:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <label for="message">Message</label><br>
+                <textarea id="message"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
 
-        <h3>Location</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89726.2225650227!2d-75.89912125664064!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1711945767362!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89726.2225650227!2d-75.89912125664064!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1711945767362!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <h3>Hours of operation</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Days</th>
-                    <th>Hours</th>
-                </tr>
-            </thead>
-                <tbody>
-                     <tr>
-                        <td>Monday-Friday</td>
-                        <td>9 AM-6 AM</td>
-                    </tr>
+            <h3>Hours of operation</h3>
+            <table>
+                <thead>
                     <tr>
-                        <td>Saturday-Sunday</td>
-                        <td>Closed</td>
+                        <th>Days</th>
+                        <th>Hours</th>
                     </tr>
-                </tbody>
-        </table>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday-Friday</td>
+                            <td>9 AM-6 AM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday-Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </div>
+        <hr>
+        <footer id="page-footer">
+            <p> &copy; Copyright Three Scar Media, 2020 </p>
+            <p>All images are taken from <u>Unsplash</u></p>
+        </footer>
     </div>
-    <hr>
-    <footer id="page-footer">
-        <p> &copy; Copyright Three Scar Media, 2020 </p>
-        <p>All images are taken from <u>Unsplash</u></p>
-    </footer>
 </body>
 </html>
