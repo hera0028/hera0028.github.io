@@ -105,7 +105,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #222;
+    background-color: #222222;
 }
 
 .sec-button {
@@ -259,5 +259,5 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #222222c0;
+    background-color: #222222d8;
 }
