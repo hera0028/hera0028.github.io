@@ -27,7 +27,7 @@ a:link {
     text-decoration: none;
 }
 
-a:link {
+a:link a:visited{
     background-color: darkgray;
     border: 10px black;
 }
