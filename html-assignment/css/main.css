@@ -23,7 +23,7 @@ ul li {
     background-color: cornflowerblue;
 }
 
-a:link {
+a:link a:visited{
     text-decoration: none;
 }
 
