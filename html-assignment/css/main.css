@@ -23,3 +23,15 @@ ul li {
     background-color: cornflowerblue;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:link {
+    background-color: darkgray;
+    border: 10px black;
+}
+
+a:hover {
+    background-color: green;
+  }
