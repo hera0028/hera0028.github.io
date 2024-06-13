@@ -23,13 +23,21 @@ ul li {
     background-color: cornflowerblue;
 }
 
-a:link a:visited{
+a:link {
     text-decoration: none;
 }
 
-a:link a:visited{
+a:visited{
+    text-decoration: none;
+}
+
+a:link {
     background-color: darkgray;
     border: 10px black;
+}
+
+a:visited{
+    background-color: aqua;
 }
 
 a:hover {
