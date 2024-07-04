@@ -9,8 +9,39 @@ body {
     margin-right: auto;
     background-color: #d4e9e7;
     padding: 10px;
-  }
+}
 
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+header h1 {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    text-align: center; 
+}
+
+.wide-image {
+    width: 100%;
+    height: auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
+    margin: 0 100px;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+}
 #Starfish { 
     float: left;
     margin: 0 20px 20px 0;
